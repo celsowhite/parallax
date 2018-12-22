@@ -1,7 +1,7 @@
 {
   "name": "@celsowhite/parallax",
-  "version": "1.0.0",
-  "description": "Detect when an element is visible in the browsers viewport.",
+  "version": "1.0.1",
+  "description": "Move elements on the page at different speeds and rotations as a user scrolls.",
   "source": "src/parallax.js",
   "module": "dist/parallax.es.js",
   "main": "dist/parallax.js",
