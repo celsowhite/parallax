@@ -1,0 +1,36 @@
+{
+  "name": "@celsowhite/parallax",
+  "version": "1.0.0",
+  "description": "Detect when an element is visible in the browsers viewport.",
+  "source": "src/parallax.js",
+  "module": "dist/parallax.es.js",
+  "main": "dist/parallax.js",
+  "umd:main": "dist/parallax.umd.js",
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch --compress false --external all",
+    "publish": "npm publish --access public"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "parallax"
+  ],
+  "homepage": "https://github.com/celsowhite/parallax#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celsowhite/parallax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/celsowhite/parallax/issues"
+  },
+  "author": "Celso White",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.8.3"
+  },
+  "dependencies": {
+    "@celsowhite/element-in-view": "^1.0.0"
+  }
+}

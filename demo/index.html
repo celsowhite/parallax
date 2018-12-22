@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Parallax</title>
+        <link href="./demo.css" rel="stylesheet" type="text/css" media="all" />
+    </head>
+
+    <body>
+        
+        <div class="section" id="section-one" style="background-color: #c95454">
+            <div class="square parallax-item" data-speed=".5" data-rotate="-40"></div>
+        </div>
+
+        <div class="section" id="section-two" style="background-color: #3cc497">
+            <div class="square"></div>
+        </div>
+
+        <div class="section" id="section-three" style="background-color: #4b9cd3">
+            <div class="square parallax-item" data-speed="-.5"></div>
+        </div>
+
+        <div class="section" id="section-four" style="background-color: #8acc9e">
+            <div class="square"></div>
+        </div>
+
+        <div class="section" id="section-five" style="background-color: #d8e0b2">
+            <div class="square parallax-item" data-speed="1.5"></div>
+        </div>
+
+        <!-- Library (Universal but via npm package will be es6) -->
+
+        <script src="../dist/parallax.umd.js"></script>
+
+        <!-- Init Script -->
+
+        <script>
+
+            parallax('.parallax-item');
+
+        </script>
+
+    </body>
+
+</html>
