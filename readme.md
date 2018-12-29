@@ -22,7 +22,10 @@ import parallax from '@celsowhite/parallax';
 
 ###### Browser
 
+The script relies on [@celsowhite/element-in-view](https://www.npmjs.com/package/@celsowhite/element-in-view). When using the script in the browser you must include element-in-view before parallax.
+
 ```html
+<script src="demo/vendor/element-in-view.umd.js"></script>
 <script src="dist/parallax.umd.js"></script>
 ```
 
@@ -51,7 +54,7 @@ Add the selector class and data attribute options to your html.
 
 Add the below data attributes directly to your html markup. Each attribute is optional.
 
-- `data-speed` {Number} A number between 0-1 will slow the element down relative to other elements on the page. Any number above 1 will speed up the element. Negative numbers will move the element in the opposite direction of other elements on the page.
+- `data-speed` {Number} A number between 0-1 will slow the element down relative to other elements on the page. Any number above 1 will speed the element up. Negative numbers will move the element in the opposite direction of other elements on the page.
 - `data-rotate` {Number} The number of degrees the element should rotate while it is in the viewport. Should be between 0-360 and can be negative to rotate in the opposite direction.
 
 ## License

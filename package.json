@@ -1,6 +1,6 @@
 {
   "name": "@celsowhite/parallax",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Move elements on the page at different speeds and rotations as a user scrolls.",
   "source": "src/parallax.js",
   "module": "dist/parallax.es.js",
@@ -8,7 +8,7 @@
   "umd:main": "dist/parallax.umd.js",
   "scripts": {
     "build": "microbundle build",
-    "watch": "microbundle watch --compress false --external all",
+    "watch": "microbundle watch",
     "publish": "npm publish --access public"
   },
   "files": [
